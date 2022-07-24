@@ -1353,6 +1353,9 @@ img {
     right: 25px;
   }
 }
+.text-dark{
+  color: #000 !important;
+}
 
 @media (max-width: 767px) {
   .about-sidebar .about-link-widget h3 a i {
@@ -9086,10 +9089,14 @@ img {
 }
 
 .blog-calassic-main-content .entry-body p {
-  color: #86909e;
+  color: #131314;
   margin-bottom: 1.2em;
 }
-
+@media (min-width:767px){
+  .pipcalc{
+    margin-left: 200px !important;
+  }
+}
 .blog-calassic-main-content .entry-body .read-more {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
