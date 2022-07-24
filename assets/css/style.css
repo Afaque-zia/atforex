@@ -1182,7 +1182,7 @@ img {
 }
 
 .theme-accordion-s2 .panel-heading+.panel-collapse>.panel-body {
-  padding-left: 130px;
+  /* padding-left: 130px; */
   min-height: 135px;
   position: relative;
 }
@@ -1195,9 +1195,10 @@ img {
 }
 
 .theme-accordion-s2 .panel-heading+.panel-collapse>.panel-body .img-holder {
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  top: 30px;
+  top: 30px; */
+  
 }
 
 @media (max-width: 767px) {
@@ -1254,10 +1255,17 @@ img {
 *******************************************/
 .about-sidebar {
   max-width: 370px;
-  margin-top: -157px;
+  position: sticky;
+  top: 10%;
+  left: 0;
+  /* height: 100vh; */
+  /* margin-top: -157px; */
   /*** about-link-widget ***/
   /*** carrer-widget ***/
 }
+/* .about-sidebar .custom {
+ 
+} */
 
 @media (max-width: 1199px) {
   .about-sidebar {
@@ -1354,7 +1362,7 @@ img {
 
 .about-sidebar .about-link-widget ul {
   font-family: "Nunito", sans-serif;
-  padding: 25px 45px;
+  padding: 25px 20px;
 }
 
 @media (max-width: 1199px) {
@@ -3099,7 +3107,7 @@ img {
 @media (max-width: 991px) {
   .header-style-3 .topbar {
     text-align: center;
-    background-color: #01b9a6;
+    background-color: #505050;
   }
 }
 
@@ -5366,13 +5374,13 @@ img {
   box-shadow: 0 0 0 2px transparent;
   margin-bottom: 0;
 }
-
+/* 
 .latest-blog-section .owl-controls .owl-dots .active span,
 .latest-blog-section-s2 .owl-controls .owl-dots .active span {
   border: 3px solid #fff;
   -webkit-box-shadow: 0 0 0 2px #01B9A6;
   box-shadow: 0 0 0 2px #01B9A6;
-}
+} */
 
 /*--------------------------------------------------------------
 #1.4	partners-section
@@ -6566,7 +6574,7 @@ img {
 }
 
 .about-section-s3 .right-col {
-  background: url("../images/about-video-bg.jpg") center center/cover no-repeat local;
+  /* background: url("../images/about-video-bg.jpg") center center/cover no-repeat local; */
   width: calc(50% - 90px);
   height: 100%;
   float: left;
@@ -6576,7 +6584,7 @@ img {
 
 .about-section-s3 .right-col:before {
   content: "";
-  background-color: #01b9a68f;
+  /* background-color: #01b9a68f; */
   /* background-color: rgba(9, 162, 35, 0.7); */
   width: 100%;
   height: 100%;
@@ -6597,9 +6605,9 @@ img {
 
 .about-section-s3 .left-col .inner {
   max-width: 670px;
-  float: right;
+  /* float: right;
   padding-left: 10px;
-  padding-right: 80px;
+  padding-right: 80px; */
   margin-left: auto;
 }
 
