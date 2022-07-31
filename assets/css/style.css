@@ -9053,11 +9053,36 @@ img {
 .blog-calassic-main-content .entry-meta li a {
   color: #999999;
 }
-
+.tb-20{
+  margin: 20px 0 !important;
+}
 .blog-calassic-main-content .entry-meta li a:hover {
   color: #01B9A6;
 }
+.ul-tick {
+  position: relative;
+  margin-bottom: 25px;
+}
+.ul-tick li {
+  line-height: 30px;
+  position: relative;
+  padding-left: 30px;
+  text-align: left;
+}
 
+
+.ul-tick li:before {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  content: '';
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+  border-bottom: solid #01B9A6;
+  border-right: solid #01B9A6;
+}
 .blog-calassic-main-content .entry-title-meta {
   margin-bottom: 25px;
 }
